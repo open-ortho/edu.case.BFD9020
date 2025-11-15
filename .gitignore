@@ -1,12 +1,41 @@
 __pycache__/
 *.py[cod]
 *.log
+*.sqlite3
+*.sqlite
+*.db
 
 .env
 .env.*
+.envrc
+*.env.local
+*.env.development
+*.env.production
 .venv/
 venv/
 env/
+
+# secrets / credentials
+secrets/
+certs/
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.gpg
+*.pgp
+*.asc
+*.kdbx
+*.secret
+*.secrets
+*.token
+*.credentials
+*.enc
 
 # build artifacts
 build/
@@ -17,3 +46,11 @@ dist/
 .DS_Store
 .idea/
 .vscode/
+
+# misc tooling
+*.swp
+*.swo
+*.bak
+*.orig
+terraform.tfstate
+terraform.tfstate.*
