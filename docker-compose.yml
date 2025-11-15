@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9020:9020"
+    environment:
+      LOG_LEVEL: "INFO"
